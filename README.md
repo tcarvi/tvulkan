@@ -1,5 +1,5 @@
 # tVulkan
-Scripts for Vulkan Computer Graphics Animation, using golang
+Scripts for Vulkan Computer Graphics Animation, using c++ and/or golang
 
 - **Important Links**:
     - Vulkan Headers: https://github.com/KhronosGroup/Vulkan-Headers
