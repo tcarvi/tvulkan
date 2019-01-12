@@ -1,0 +1,7 @@
+/*
+ * Union distributes over intersection
+ * S1 U ( S2 intersection S3 ) = ( S1 U S2 ) intersection ( S1 U S3)
+ */
+unsigned long long int unionDistributionOverIntersection(unsigned long long int S1, unsigned long long int S2, unsigned long long S3){
+  return intersectionOfTwoSets(unionOfTwoSets(S1, S2), unionOfTwoSets(S1, S3)); 
+}
